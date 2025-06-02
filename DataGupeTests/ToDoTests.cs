@@ -90,7 +90,7 @@ public class TodoControllerTests
         Assert.AreEqual(DateTime.Now, result.CreatedDate);
     }
 
-    // Integration test example
+    // Integration test example, This test will fail unless you create a supabase account and put the details in on line 57
     [TestMethod]
     public async Task GetTodosIntegrated_ReturnsOkResult_WithTodos()
     {
