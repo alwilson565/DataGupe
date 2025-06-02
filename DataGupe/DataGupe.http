@@ -1,0 +1,6 @@
+@DataGupe_HostAddress = http://localhost:5276
+
+GET {{DataGupe_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
